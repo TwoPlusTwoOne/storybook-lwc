@@ -1,0 +1,33 @@
+{
+  "name": "storybook-lwc",
+  "version": "0.0.0",
+  "description": "Storybook LWC",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "test-storybook": "test-storybook"
+  },
+  "dependencies": {
+    "@salesforce-ux/design-system": "2.19.0",
+    "lightning-base-components": "1.15.4-alpha"
+  },
+  "devDependencies": {
+    "@babel/core": "7.18.10",
+    "@babel/plugin-proposal-optional-chaining": "7.18.9",
+    "@babel/plugin-transform-typescript": "7.18.12",
+    "@lwc/engine": "1.17.6",
+    "@lwc/module-resolver": "2.23.0",
+    "@lwc/synthetic-shadow": "2.23.0",
+    "@storybook/addon-essentials": "6.5.10",
+    "@storybook/addon-knobs": "5.1.11",
+    "@storybook/addon-links": "6.5.10",
+    "@storybook/addon-storysource": "6.5.10",
+    "@storybook/addons": "6.5.10",
+    "@storybook/test-runner": "0.5.0",
+    "@storybook/web-components": "6.5.10",
+    "babel-loader": "8.2.5",
+    "lit-html": "1.4.1",
+    "lwc": "2.23.0",
+    "lwc-webpack-plugin": "3.0.0"
+  }
+}
