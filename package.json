@@ -15,7 +15,7 @@
     "@babel/core": "7.18.10",
     "@babel/plugin-proposal-optional-chaining": "7.18.9",
     "@babel/plugin-transform-typescript": "7.18.12",
-    "@lwc/engine": "1.17.6",
+    "@lwc/engine-dom": "2.23.0",
     "@lwc/module-resolver": "2.23.0",
     "@lwc/synthetic-shadow": "2.23.0",
     "@storybook/addon-essentials": "6.5.10",
